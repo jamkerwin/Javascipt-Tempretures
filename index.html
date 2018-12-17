@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Javascript Temperatue</title>
+<script>
+
+function cToF(fahrenheit){
+        C = (fahrenheit*9/5)+32;
+        return C;
+}
+
+function fToC(celsius){
+        F = (5/9) * (celsius - 32);
+        return F;
+}
+
+</script>
+</head>
+<body>
+<p id="temp"></p>
+<input type="button" value="Convert to F"; 
+        onclick="f=prompt('Enter Celsius value','0');alert(cToF(f))">
+<input type="button" value="Convert to C"; 
+        onclick="c=prompt('Enter Fahrenheit value','32');alert(fToC(c))">
+</body>
+</html>
